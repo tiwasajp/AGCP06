@@ -1,0 +1,262 @@
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+	
+  --color-tmb-bg: #2e4053;
+  --color-gray-1: #444444;
+  --color-gray-2: #888888;
+  --color-gray-3: #dddddd;
+  --color-gray-4: #eeeeee;
+  --color-white: #ffffff;
+  --color-green: #90ee90;
+  --color-red: #cc0009;
+  --color-blue: #0084ff;
+  --border-chat: solid 1px #2755EE;
+  --border-gray-1: solid 1px #333333;
+  --border-gray-2: solid 1px #666666;
+  --border-gray-3: solid 1px #dddddd;
+  --border-gray-4: solid 1px #eeeeee;
+  --color-chat-cust: #0084ff;
+  --color-chat-bot: #00c300;
+  --color-chat-agent: #fa3c4c;
+  --border-chat-cust: solid 1px #0084ff;
+  --border-chat-bot: solid 1px #00c300;
+  --border-chat-agent: solid 1px #fa3c4c;
+  
+  --color-primary: rgba(39, 53, 10, 1); /* #27350a var(color-primary) */
+  --color-secondary:rgba(138, 196, 62, 1); /* #8ac43e var(--color-secondary) */
+  --color-tertiary:rgba(107, 191, 63, 1); /* #6bbf3f var(--color-tertiary) */
+  --color-quaternary:rgba(52, 134, 52, 1); /* #d9f0a1 var(--color-quaternary) */
+  --color-link:rgba(25, 130, 209, 1); /* #1982d1 var(--color-link) */
+  --color-white:rgba(255, 255, 255, 1); /* #ffffff var(--color-white) */
+  --color-black:rgba(0, 0, 0, 1); /* #000000 var(--color-black) */
+}
+
+main {
+	flex: 1;
+	overflow-x: hidden;
+}
+
+html {
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+  	color: var(--color-gray-1);
+    font-family: 'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif,sans-serif,"Helvetica Neue",Helvetica,Arial;
+    font-size: 12px;
+  	line-height: 1.42857143;
+    text-align: left;
+}
+
+.button-eo {
+	border: none;
+	background-color: yellow;
+}
+.button-eo:focus {
+	border: solid 1px;
+	background-color: yellow;
+}
+
+table {
+  margin-top: 0px;
+  margin-left: 0px;
+  border-collapse: none;
+  border-spacing: 0px;
+  font-size: 19px;
+}
+
+th, td {
+  height: 25px;
+  text-align: left;
+  vertical-align: center;
+}
+
+.nodisp {
+    display: none;
+}
+
+.tel-dropCallBtn {
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	background-color: #f44;
+}
+			
+.tel-muteBtn {
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	background-color: #44f;
+}
+			
+.tel-unmuteBtn {
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	color:#00f;
+	background-color:#eee;
+} 
+
+.form-video {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 600px;
+  background-color: var(--color-white);
+}
+
+.view-video-local {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 600px;
+}
+
+.view-video-remote {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 600px;
+}
+.view-table-properties {
+  width:  100%;
+  height:  100px;
+  padding: 5px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.view-table-items {
+  width:  100%;
+  height:  340px;
+  padding: 5px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.view-table {
+  width:  100%;
+  padding: 5px;
+}
+
+.view-table-header {
+  width:  100%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.view-table-content {
+  width:  100%;
+  height: 200px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.th-btn-blank {
+  text-align: center;
+  border:none;
+  width: 20px;
+  height: 30px;
+  background-color: var(--color-gray-4);
+}
+
+.th-title {
+  text-align: center;
+  padding: 2px 10px;
+  border: 1px solid var(--color-white);
+  color: gray;
+  height: 30px;
+  background-color: #eeeeee;
+}
+
+.td-btn-blank {
+  text-align: center;
+  border:none;
+  width: 20px;
+  height: 30px;
+  background-color: var(--color-white);
+}
+
+.td-seq {
+  text-align: center;
+  padding: 2px 10px;
+  border: 1px solid var(--color-white);
+  color: gray;
+  height: 30px;
+  background-color: #eeeeee;
+}
+
+.td-field {
+  text-align: left;
+  padding: 0px 10px;
+  border: 1px solid #eeeeee;
+  color: gray;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.td-key {
+  text-align: center;
+  padding: 2px 10px;
+  border: 1px solid #ffffff;
+  color: gray;
+  width: 100px;
+  height: 30px;
+  background-color: #eeeeee;
+}
+
+.td-value {
+  text-align: left;
+  padding: 2px 10px;
+  border: 1px solid #eeeeee;
+  color: gray;
+  width: 800px;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+input-tmp {
+   border: none;
+   padding: 0px 10px;
+   margin: 0px 0px -10px 0px;
+   width: 100%;
+   height: 26px;
+}
+
+

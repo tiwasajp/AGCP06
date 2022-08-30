@@ -1,0 +1,45 @@
+{
+  "name": "ccaas21",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiwasajp/ccaas21.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiwasajp/ccaas21/issues"
+  },
+  "homepage": "https://github.com/tiwasajp/ccaas21#readme",
+  "dependencies": {
+    "@google-cloud/dialogflow-cx": "^2.15.0",
+    "@google-cloud/language": "^5.0.0",
+    "@google-cloud/speech": "^4.10.2",
+    "@google-cloud/storage": "^6.2.3",
+    "@google-cloud/translate": "^7.0.0",
+    "@google-cloud/video-intelligence": "^4.0.0",
+    "@google-cloud/vision": "^2.4.2",
+    "date-utils": "^1.2.21",
+    "dialogflow": "^1.2.0",
+    "express": "^4.18.1",
+    "formidable": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "pb-util": "^1.0.3",
+    "qrcode": "^1.5.0",
+    "socket.io": "^4.5.1",
+    "urlsafe-base64": "^1.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

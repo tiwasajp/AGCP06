@@ -1,0 +1,408 @@
+[36m2022/04/26 10:24:41 [33mServer [0mlistening on port 443
+[36m2022/07/18 15:47:29 [33mServer [0mlistening on port 443
+
+[36m2022/07/18 15:47:42 [33mintentInfo: [0m{"lastMatchedIntent":"projects/ccai-av-97a11ffc8857e5/locations/asia-northeast1/agents/65e8f941-5314-4125-8b10-248aa0461b51/intents/00000000-0000-0000-0000-000000000000","displayName":"Default Welcome Intent","confidence":1}
+[36m2022/07/18 15:47:42 [33mproject: [0mccai-av-97a11ffc8857e5
+[36m2022/07/18 15:47:42 [33msession: [0m1031ktNjfSnT064mdyfLtZywg
+[36m2022/07/18 15:47:42 [33mconfidence: [0mundefined
+[36m2022/07/18 15:47:42 [33mpageInfo: [0mStart Page
+[36m2022/07/18 15:47:42 [33mtag: [0mStart
+[36m2022/07/18 15:47:42 [33mparameters: [0m{"avaya-session-telephone":{"rdnis":"23901@sip.*.*.com","aai":"00FA080001223F62D5025D;encoding=hex","teletype":"SIP","early_media":"false","call_tag":"ep1-2022199065152-1","iidigits":"","callid":"ep1-sip-1-2022199065152","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","uui":"00FA080001223F62D5025D;encoding=hex","ccxml":{"values":{"early_media":"false"},"namelist":["early_media"]},"called_extension":"","channel":"281","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065152-1&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful2","coverage_type":"","ani":"09093817266","dnis":"9002"},"sip-hdrs":{"require":"","useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"historyinfo":[{"displayname":"","optheader":"","user":"23901","host":"sip.*.*.com","index":"1","ext":""},{"host":"sip.*.*.com","index":"1.1","user":"23901","displayname":"\"diagflowVDN\"","optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","ext":""},{"displayname":"\"diagflowVDN\"","optheader":"","host":"sip.*.*.com","user":"23901","ext":"","index":"1.2"}],"supported":"100rel histinfo join replaces sdp-anat timer ","contact":[{"displayname":"","uri":"sip:09093817266@*.*.7.14:5071;gsid=b6b7111c-0665-41ed-94c2-000c29d10dd2;asm=1"}],"requestmethod":"INVITE","via":[{"sentport":"[0]","protocol":"SIP/2.0/TCP","sentaddr":"*.*.7.13"},{"sentport":"[15060]","protocol":"SIP/2.0/TCP","sentaddr":"127.0.0.2"},{"sentport":"[15060]","sentaddr":"127.0.0.2","protocol":"SIP/2.0/TCP"},{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TLS","sentport":"[5071]"},{"sentaddr":"*.*.7.14","sentport":"[5071]","protocol":"SIP/2.0/TLS"},{"sentport":"[0]","sentaddr":"*.*.7.29","protocol":"SIP/2.0/TLS"}],"to":{"user":"9002","host":"sip.*.*.com","uri":"sip:9002@sip.*.*.com","displayname":""},"requesturi":"sip:9002@sip.*.*.com","from":{"user":"09093817266","host":"sip.*.*.com","displayname":"","uri":"sip:09093817266@sip.*.*.com","tag":"b6b8299e66541ed94c80c29d1dd2"},"media":[{"type":"audio","faraddress":"*.*.7.29","faraddrtype":"IP4","farport":"[2060]","protocol":"RTP/AVP"}],"request":{"host":"sip.*.*.com","user":"9002"},"callid":"b6b828fe66541ed94c70c29d1dd2","requestversion":"SIP/2.0","unknownhdr":[{"name":"Max-Breadth","value":" 60"},{"name":"User-to-User","value":" 00FA080001223F62D5025D;encoding=hex"},{"value":" 1_1","name":"P-AV-Message-Id"},{"value":" b6b7111c-0665-41ed-94c2-000c29d10dd2","name":"Av-Global-Session-ID"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}]}}
+[36m2022/07/18 15:47:42 [33mmessages: [0m[{"text":{"text":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"],"redactedText":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"]},"responseType":"HANDLER_PROMPT","source":"VIRTUAL_AGENT"}]
+[36m2022/07/18 15:47:42 [33mlanguageCode: [0mja
+[36m2022/07/18 15:47:42 [33mcmsp.interactions [0msessionId 1031ktNjfSnT064mdyfLtZywg added
+[36m2022/07/18 15:47:42 [33mresp.send [0m[{"text":{"text":["<speak><audio src=\"https://aura.uxportal.jp/audios/chime.wav\"></audio></speak>"]}}]
+{
+  sessionId: '1031ktNjfSnT064mdyfLtZywg',
+  phoneNumber: '09093817266',
+  name: { audio: null, query: null, transcription: null, katakana: null },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:47:42',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+
+[36m2022/07/18 15:47:43 [33mintentInfo: [0m{"lastMatchedIntent":"projects/ccai-av-97a11ffc8857e5/locations/asia-northeast1/agents/65e8f941-5314-4125-8b10-248aa0461b51/intents/00000000-0000-0000-0000-000000000000","displayName":"Default Welcome Intent","confidence":1}
+[36m2022/07/18 15:47:43 [33mproject: [0mccai-av-97a11ffc8857e5
+[36m2022/07/18 15:47:43 [33msession: [0m1031ktNjfSnT064mdyfLtZywg
+[36m2022/07/18 15:47:43 [33mconfidence: [0mundefined
+[36m2022/07/18 15:47:43 [33mpageInfo: [0mName Identification
+[36m2022/07/18 15:47:43 [33mtag: [0mQueryName
+[36m2022/07/18 15:47:43 [33mparameters: [0m{"avaya-session-telephone":{"rdnis":"23901@sip.*.*.com","aai":"00FA080001223F62D5025D;encoding=hex","teletype":"SIP","early_media":"false","call_tag":"ep1-2022199065152-1","iidigits":"","callid":"ep1-sip-1-2022199065152","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","uui":"00FA080001223F62D5025D;encoding=hex","ccxml":{"values":{"early_media":"false"},"namelist":["early_media"]},"called_extension":"","channel":"281","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065152-1&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful2","coverage_type":"","ani":"09093817266","dnis":"9002"},"sip-hdrs":{"require":"","useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"historyinfo":[{"displayname":"","optheader":"","user":"23901","host":"sip.*.*.com","index":"1","ext":""},{"host":"sip.*.*.com","index":"1.1","user":"23901","displayname":"\"diagflowVDN\"","optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","ext":""},{"displayname":"\"diagflowVDN\"","optheader":"","host":"sip.*.*.com","user":"23901","ext":"","index":"1.2"}],"supported":"100rel histinfo join replaces sdp-anat timer ","contact":[{"displayname":"","uri":"sip:09093817266@*.*.7.14:5071;gsid=b6b7111c-0665-41ed-94c2-000c29d10dd2;asm=1"}],"requestmethod":"INVITE","via":[{"sentport":"[0]","protocol":"SIP/2.0/TCP","sentaddr":"*.*.7.13"},{"sentport":"[15060]","protocol":"SIP/2.0/TCP","sentaddr":"127.0.0.2"},{"sentport":"[15060]","sentaddr":"127.0.0.2","protocol":"SIP/2.0/TCP"},{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TLS","sentport":"[5071]"},{"sentaddr":"*.*.7.14","sentport":"[5071]","protocol":"SIP/2.0/TLS"},{"sentport":"[0]","sentaddr":"*.*.7.29","protocol":"SIP/2.0/TLS"}],"to":{"user":"9002","host":"sip.*.*.com","uri":"sip:9002@sip.*.*.com","displayname":""},"requesturi":"sip:9002@sip.*.*.com","from":{"user":"09093817266","host":"sip.*.*.com","displayname":"","uri":"sip:09093817266@sip.*.*.com","tag":"b6b8299e66541ed94c80c29d1dd2"},"media":[{"type":"audio","faraddress":"*.*.7.29","faraddrtype":"IP4","farport":"[2060]","protocol":"RTP/AVP"}],"request":{"host":"sip.*.*.com","user":"9002"},"callid":"b6b828fe66541ed94c70c29d1dd2","requestversion":"SIP/2.0","unknownhdr":[{"name":"Max-Breadth","value":" 60"},{"name":"User-to-User","value":" 00FA080001223F62D5025D;encoding=hex"},{"value":" 1_1","name":"P-AV-Message-Id"},{"value":" b6b7111c-0665-41ed-94c2-000c29d10dd2","name":"Av-Global-Session-ID"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}]}}
+[36m2022/07/18 15:47:43 [33mmessages: [0m[{"text":{"text":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"],"redactedText":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"]},"responseType":"HANDLER_PROMPT","source":"VIRTUAL_AGENT"},{"text":{"text":["<speak><audio src=\"https://aura.uxportal.jp/audios/chime.wav\"></audio></speak>"],"redactedText":["<speak><audio src=\"https://aura.uxportal.jp/audios/chime.wav\"></audio></speak>"]},"responseType":"HANDLER_PROMPT","source":"WEBHOOK"},{"text":{"text":["転送先の名前、または企業名はなんですか？"],"redactedText":["転送先の名前、または企業名はなんですか？"]},"responseType":"ENTRY_PROMPT","source":"VIRTUAL_AGENT"}]
+[36m2022/07/18 15:47:43 [33mlanguageCode: [0mja
+[36m2022/07/18 15:47:43 [33mcmsp.interactions [0msessionId 1031ktNjfSnT064mdyfLtZywg found
+[36m2022/07/18 15:47:43 [33mresp.send [0m[]
+{
+  sessionId: '1031ktNjfSnT064mdyfLtZywg',
+  phoneNumber: '09093817266',
+  name: { audio: null, query: null, transcription: null, katakana: null },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:47:42',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:47:43',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+
+[36m2022/07/18 15:47:57 [33mintentInfo: [0mundefined
+[36m2022/07/18 15:47:57 [33mproject: [0mccai-av-97a11ffc8857e5
+[36m2022/07/18 15:47:57 [33msession: [0m1031ktNjfSnT064mdyfLtZywg
+[36m2022/07/18 15:47:57 [33mconfidence: [0mundefined
+[36m2022/07/18 15:47:57 [33mpageInfo: [0mName Identification
+[36m2022/07/18 15:47:57 [33mtag: [0mCustomerDropped
+[36m2022/07/18 15:47:57 [33mparameters: [0m{"avaya-session-telephone":{"rdnis":"23901@sip.*.*.com","aai":"00FA080001223F62D5025D;encoding=hex","teletype":"SIP","early_media":"false","call_tag":"ep1-2022199065152-1","iidigits":"","callid":"ep1-sip-1-2022199065152","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","uui":"00FA080001223F62D5025D;encoding=hex","ccxml":{"values":{"early_media":"false"},"namelist":["early_media"]},"called_extension":"","channel":"281","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065152-1&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful2","coverage_type":"","ani":"09093817266","dnis":"9002"},"sip-hdrs":{"require":"","useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"historyinfo":[{"displayname":"","optheader":"","user":"23901","host":"sip.*.*.com","index":"1","ext":""},{"host":"sip.*.*.com","index":"1.1","user":"23901","displayname":"\"diagflowVDN\"","optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","ext":""},{"displayname":"\"diagflowVDN\"","optheader":"","host":"sip.*.*.com","user":"23901","ext":"","index":"1.2"}],"supported":"100rel histinfo join replaces sdp-anat timer ","contact":[{"displayname":"","uri":"sip:09093817266@*.*.7.14:5071;gsid=b6b7111c-0665-41ed-94c2-000c29d10dd2;asm=1"}],"requestmethod":"INVITE","via":[{"sentport":"[0]","protocol":"SIP/2.0/TCP","sentaddr":"*.*.7.13"},{"sentport":"[15060]","protocol":"SIP/2.0/TCP","sentaddr":"127.0.0.2"},{"sentport":"[15060]","sentaddr":"127.0.0.2","protocol":"SIP/2.0/TCP"},{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TLS","sentport":"[5071]"},{"sentaddr":"*.*.7.14","sentport":"[5071]","protocol":"SIP/2.0/TLS"},{"sentport":"[0]","sentaddr":"*.*.7.29","protocol":"SIP/2.0/TLS"}],"to":{"user":"9002","host":"sip.*.*.com","uri":"sip:9002@sip.*.*.com","displayname":""},"requesturi":"sip:9002@sip.*.*.com","from":{"user":"09093817266","host":"sip.*.*.com","displayname":"","uri":"sip:09093817266@sip.*.*.com","tag":"b6b8299e66541ed94c80c29d1dd2"},"media":[{"type":"audio","faraddress":"*.*.7.29","faraddrtype":"IP4","farport":"[2060]","protocol":"RTP/AVP"}],"request":{"host":"sip.*.*.com","user":"9002"},"callid":"b6b828fe66541ed94c70c29d1dd2","requestversion":"SIP/2.0","unknownhdr":[{"name":"Max-Breadth","value":" 60"},{"name":"User-to-User","value":" 00FA080001223F62D5025D;encoding=hex"},{"value":" 1_1","name":"P-AV-Message-Id"},{"value":" b6b7111c-0665-41ed-94c2-000c29d10dd2","name":"Av-Global-Session-ID"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}]}}
+[36m2022/07/18 15:47:57 [33mmessages: [0mundefined
+[36m2022/07/18 15:47:57 [33mlanguageCode: [0men-us
+[36m2022/07/18 15:47:57 [33mcmsp.interactions [0msessionId 1031ktNjfSnT064mdyfLtZywg found
+[36m2022/07/18 15:47:57 [33mresp.send [0m[{"text":{"text":["<speak><audio src=\"https://aura.uxportal.jp/audios/boing_x.wav\"></audio></speak>"]}}]
+{
+  sessionId: '1031ktNjfSnT064mdyfLtZywg',
+  phoneNumber: '09093817266',
+  name: { audio: null, query: null, transcription: null, katakana: null },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:47:42',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:47:43',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:47:57',
+      tag: 'CustomerDropped',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+
+[36m2022/07/18 15:48:02 [33mintentInfo: [0m{"lastMatchedIntent":"projects/ccai-dialogflow2-uthixs/locations/asia-northeast1/agents/db1dead3-dede-4961-aa51-3ab0c1f3756d/intents/00000000-0000-0000-0000-000000000000","displayName":"Default Welcome Intent","confidence":1}
+[36m2022/07/18 15:48:02 [33mproject: [0mccai-dialogflow2-uthixs
+[36m2022/07/18 15:48:02 [33msession: [0m081XgOLfoWvSdyvyjhRftMM8Q
+[36m2022/07/18 15:48:02 [33mconfidence: [0mundefined
+[36m2022/07/18 15:48:02 [33mpageInfo: [0mStart Page
+[36m2022/07/18 15:48:02 [33mtag: [0mStart
+[36m2022/07/18 15:48:02 [33mparameters: [0m{"avaya-session-telephone":{"ccxml":{"namelist":["early_media"],"values":{"early_media":"false"}},"uui":"00FA080001224062D50272;encoding=hex","coverage_type":"","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065212-2&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful3","dnis":"9001","aai":"00FA080001224062D50272;encoding=hex","channel":"282","callid":"ep1-sip-1-2022199065212","early_media":"false","called_extension":"","teletype":"SIP","rdnis":"23901@sip.*.*.com","ani":"09093817266","iidigits":"","call_tag":"ep1-2022199065212-2","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22"},"sip-hdrs":{"contact":[{"uri":"sip:09093817266@*.*.7.14:5071;gsid=c278e3ea-0665-41ed-94dd-000c29d10dd2;asm=1","displayname":""}],"requestversion":"SIP/2.0","via":[{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TCP","sentport":"[0]"},{"protocol":"SIP/2.0/TCP","sentport":"[15060]","sentaddr":"127.0.0.2"},{"protocol":"SIP/2.0/TCP","sentport":"[15060]","sentaddr":"127.0.0.2"},{"sentaddr":"*.*.7.13","sentport":"[5071]","protocol":"SIP/2.0/TLS"},{"sentport":"[5071]","sentaddr":"*.*.7.14","protocol":"SIP/2.0/TLS"},{"sentaddr":"*.*.7.29","sentport":"[0]","protocol":"SIP/2.0/TLS"}],"request":{"user":"9001","host":"sip.*.*.com"},"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}],"unknownhdr":[{"name":"Max-Breadth","value":" 60"},{"name":"User-to-User","value":" 00FA080001224062D50272;encoding=hex"},{"value":" 1_1","name":"P-AV-Message-Id"},{"value":" c278e3ea-0665-41ed-94dd-000c29d10dd2","name":"Av-Global-Session-ID"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"callid":"c279edd066541ed94e20c29d1dd2","useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"require":"","supported":"100rel histinfo join replaces sdp-anat timer ","media":[{"type":"audio","farport":"[2054]","protocol":"RTP/AVP","faraddress":"*.*.7.29","faraddrtype":"IP4"}],"to":{"uri":"sip:9001@sip.*.*.com","user":"9001","displayname":"","host":"sip.*.*.com"},"historyinfo":[{"displayname":"","index":"1","ext":"","host":"sip.*.*.com","optheader":"","user":"23901"},{"displayname":"\"diagflowVDN\"","user":"23901","optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","index":"1.1","ext":"","host":"sip.*.*.com"},{"index":"1.2","ext":"","user":"23901","optheader":"","host":"sip.*.*.com","displayname":"\"diagflowVDN\""}],"requestmethod":"INVITE","from":{"uri":"sip:09093817266@sip.*.*.com","tag":"c279ee7066541ed94e30c29d1dd2","host":"sip.*.*.com","displayname":"","user":"09093817266"},"requesturi":"sip:9001@sip.*.*.com"}}
+[36m2022/07/18 15:48:02 [33mmessages: [0m[{"text":{"text":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"],"redactedText":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"]},"responseType":"HANDLER_PROMPT","source":"VIRTUAL_AGENT"}]
+[36m2022/07/18 15:48:02 [33mlanguageCode: [0mja
+[36m2022/07/18 15:48:02 [33mcmsp.interactions [0msessionId 081XgOLfoWvSdyvyjhRftMM8Q added
+[36m2022/07/18 15:48:02 [33mresp.send [0m[{"text":{"text":["<speak><audio src=\"https://aura.uxportal.jp/audios/chime.wav\"></audio></speak>"]}}]
+{
+  sessionId: '081XgOLfoWvSdyvyjhRftMM8Q',
+  phoneNumber: '09093817266',
+  name: { audio: null, query: null, transcription: null, katakana: null },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:48:02',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+
+[36m2022/07/18 15:48:02 [33mintentInfo: [0m{"lastMatchedIntent":"projects/ccai-dialogflow2-uthixs/locations/asia-northeast1/agents/db1dead3-dede-4961-aa51-3ab0c1f3756d/intents/00000000-0000-0000-0000-000000000000","displayName":"Default Welcome Intent","confidence":1}
+[36m2022/07/18 15:48:02 [33mproject: [0mccai-dialogflow2-uthixs
+[36m2022/07/18 15:48:02 [33msession: [0m081XgOLfoWvSdyvyjhRftMM8Q
+[36m2022/07/18 15:48:02 [33mconfidence: [0mundefined
+[36m2022/07/18 15:48:02 [33mpageInfo: [0mName Identification
+[36m2022/07/18 15:48:02 [33mtag: [0mQueryName
+[36m2022/07/18 15:48:02 [33mparameters: [0m{"avaya-session-telephone":{"ccxml":{"namelist":["early_media"],"values":{"early_media":"false"}},"uui":"00FA080001224062D50272;encoding=hex","coverage_type":"","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065212-2&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful3","dnis":"9001","aai":"00FA080001224062D50272;encoding=hex","channel":"282","callid":"ep1-sip-1-2022199065212","early_media":"false","called_extension":"","teletype":"SIP","rdnis":"23901@sip.*.*.com","ani":"09093817266","iidigits":"","call_tag":"ep1-2022199065212-2","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22"},"sip-hdrs":{"contact":[{"uri":"sip:09093817266@*.*.7.14:5071;gsid=c278e3ea-0665-41ed-94dd-000c29d10dd2;asm=1","displayname":""}],"requestversion":"SIP/2.0","via":[{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TCP","sentport":"[0]"},{"protocol":"SIP/2.0/TCP","sentport":"[15060]","sentaddr":"127.0.0.2"},{"protocol":"SIP/2.0/TCP","sentport":"[15060]","sentaddr":"127.0.0.2"},{"sentaddr":"*.*.7.13","sentport":"[5071]","protocol":"SIP/2.0/TLS"},{"sentport":"[5071]","sentaddr":"*.*.7.14","protocol":"SIP/2.0/TLS"},{"sentaddr":"*.*.7.29","sentport":"[0]","protocol":"SIP/2.0/TLS"}],"request":{"user":"9001","host":"sip.*.*.com"},"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}],"unknownhdr":[{"name":"Max-Breadth","value":" 60"},{"name":"User-to-User","value":" 00FA080001224062D50272;encoding=hex"},{"value":" 1_1","name":"P-AV-Message-Id"},{"value":" c278e3ea-0665-41ed-94dd-000c29d10dd2","name":"Av-Global-Session-ID"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"callid":"c279edd066541ed94e20c29d1dd2","useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"require":"","supported":"100rel histinfo join replaces sdp-anat timer ","media":[{"type":"audio","farport":"[2054]","protocol":"RTP/AVP","faraddress":"*.*.7.29","faraddrtype":"IP4"}],"to":{"uri":"sip:9001@sip.*.*.com","user":"9001","displayname":"","host":"sip.*.*.com"},"historyinfo":[{"displayname":"","index":"1","ext":"","host":"sip.*.*.com","optheader":"","user":"23901"},{"displayname":"\"diagflowVDN\"","user":"23901","optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","index":"1.1","ext":"","host":"sip.*.*.com"},{"index":"1.2","ext":"","user":"23901","optheader":"","host":"sip.*.*.com","displayname":"\"diagflowVDN\""}],"requestmethod":"INVITE","from":{"uri":"sip:09093817266@sip.*.*.com","tag":"c279ee7066541ed94e30c29d1dd2","host":"sip.*.*.com","displayname":"","user":"09093817266"},"requesturi":"sip:9001@sip.*.*.com"}}
+[36m2022/07/18 15:48:02 [33mmessages: [0m[{"text":{"text":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"],"redactedText":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"]},"responseType":"HANDLER_PROMPT","source":"VIRTUAL_AGENT"},{"text":{"text":["<speak><audio src=\"https://aura.uxportal.jp/audios/chime.wav\"></audio></speak>"],"redactedText":["<speak><audio src=\"https://aura.uxportal.jp/audios/chime.wav\"></audio></speak>"]},"responseType":"HANDLER_PROMPT","source":"WEBHOOK"},{"text":{"text":["転送先の名前、または企業名はなんですか？"],"redactedText":["転送先の名前、または企業名はなんですか？"]},"responseType":"ENTRY_PROMPT","source":"VIRTUAL_AGENT"}]
+[36m2022/07/18 15:48:02 [33mlanguageCode: [0mja
+[36m2022/07/18 15:48:02 [33mcmsp.interactions [0msessionId 081XgOLfoWvSdyvyjhRftMM8Q found
+[36m2022/07/18 15:48:02 [33mresp.send [0m[]
+{
+  sessionId: '081XgOLfoWvSdyvyjhRftMM8Q',
+  phoneNumber: '09093817266',
+  name: { audio: null, query: null, transcription: null, katakana: null },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:48:02',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:02',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+
+[36m2022/07/18 15:48:18 [33mintentInfo: [0mundefined
+[36m2022/07/18 15:48:18 [33mproject: [0mccai-dialogflow2-uthixs
+[36m2022/07/18 15:48:18 [33msession: [0m081XgOLfoWvSdyvyjhRftMM8Q
+[36m2022/07/18 15:48:18 [33mconfidence: [0mundefined
+[36m2022/07/18 15:48:18 [33mpageInfo: [0mName Identification
+[36m2022/07/18 15:48:18 [33mtag: [0mQueryName
+[36m2022/07/18 15:48:18 [33mparameters: [0m{"avaya-session-telephone":{"ccxml":{"namelist":["early_media"],"values":{"early_media":"false"}},"uui":"00FA080001224062D50272;encoding=hex","coverage_type":"","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065212-2&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful3","dnis":"9001","aai":"00FA080001224062D50272;encoding=hex","channel":"282","callid":"ep1-sip-1-2022199065212","early_media":"false","called_extension":"","teletype":"SIP","rdnis":"23901@sip.*.*.com","ani":"09093817266","iidigits":"","call_tag":"ep1-2022199065212-2","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22"},"query-name":"タカヤ株式会社","sip-hdrs":{"contact":[{"uri":"sip:09093817266@*.*.7.14:5071;gsid=c278e3ea-0665-41ed-94dd-000c29d10dd2;asm=1","displayname":""}],"requestversion":"SIP/2.0","via":[{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TCP","sentport":"[0]"},{"protocol":"SIP/2.0/TCP","sentport":"[15060]","sentaddr":"127.0.0.2"},{"protocol":"SIP/2.0/TCP","sentport":"[15060]","sentaddr":"127.0.0.2"},{"sentaddr":"*.*.7.13","sentport":"[5071]","protocol":"SIP/2.0/TLS"},{"sentport":"[5071]","sentaddr":"*.*.7.14","protocol":"SIP/2.0/TLS"},{"sentaddr":"*.*.7.29","sentport":"[0]","protocol":"SIP/2.0/TLS"}],"request":{"user":"9001","host":"sip.*.*.com"},"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}],"unknownhdr":[{"name":"Max-Breadth","value":" 60"},{"name":"User-to-User","value":" 00FA080001224062D50272;encoding=hex"},{"value":" 1_1","name":"P-AV-Message-Id"},{"value":" c278e3ea-0665-41ed-94dd-000c29d10dd2","name":"Av-Global-Session-ID"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"callid":"c279edd066541ed94e20c29d1dd2","useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"require":"","supported":"100rel histinfo join replaces sdp-anat timer ","media":[{"type":"audio","farport":"[2054]","protocol":"RTP/AVP","faraddress":"*.*.7.29","faraddrtype":"IP4"}],"to":{"uri":"sip:9001@sip.*.*.com","user":"9001","displayname":"","host":"sip.*.*.com"},"historyinfo":[{"displayname":"","index":"1","ext":"","host":"sip.*.*.com","optheader":"","user":"23901"},{"displayname":"\"diagflowVDN\"","user":"23901","optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","index":"1.1","ext":"","host":"sip.*.*.com"},{"index":"1.2","ext":"","user":"23901","optheader":"","host":"sip.*.*.com","displayname":"\"diagflowVDN\""}],"requestmethod":"INVITE","from":{"uri":"sip:09093817266@sip.*.*.com","tag":"c279ee7066541ed94e30c29d1dd2","host":"sip.*.*.com","displayname":"","user":"09093817266"},"requesturi":"sip:9001@sip.*.*.com"}}
+[36m2022/07/18 15:48:18 [33mmessages: [0mundefined
+[36m2022/07/18 15:48:18 [33mlanguageCode: [0mja
+[36m2022/07/18 15:48:18 [33mcmsp.interactions [0msessionId 081XgOLfoWvSdyvyjhRftMM8Q found
+[36m2022/07/18 15:48:18 [33mquery-name: [0mタカヤ株式会社
+[36m2022/07/18 15:48:19 [33maudiofile [0mccai-dialogflow2-uthixs_081XgOLfoWvSdyvyjhRftMM8Q_audio-encoding-linear-16_8000_1_1658126980270164
+
+[36m2022/07/18 15:48:21 [33mtranscription [0m{"transcription":"タカヤ株式会社","katakana":"タカヤ カブシキガイシャ ","confidence":"undefined,undefined,"}
+[36m2022/07/18 15:48:21 [33mresp.send [0m[{"text":{"text":["<speak><audio src=\"https://aura.uxportal.jp/data/ccai-dialogflow2-uthixs_081XgOLfoWvSdyvyjhRftMM8Q_audio-encoding-linear-16_8000_1_1658126980270164_name.wav\"></audio><audio src=\"https://aura.uxportal.jp/audios/chime_down.wav\"></audio></speak>"]}}]
+{
+  sessionId: '081XgOLfoWvSdyvyjhRftMM8Q',
+  phoneNumber: '09093817266',
+  name: {
+    audio: 'ccai-dialogflow2-uthixs_081XgOLfoWvSdyvyjhRftMM8Q_audio-encoding-linear-16_8000_1_1658126980270164',
+    query: 'タカヤ株式会社',
+    transcription: 'タカヤ株式会社',
+    katakana: 'タカヤ カブシキガイシャ '
+  },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:48:02',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:02',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:21',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+
+[36m2022/07/18 15:48:27 [33mintentInfo: [0mundefined
+[36m2022/07/18 15:48:27 [33mproject: [0mccai-dialogflow2-uthixs
+[36m2022/07/18 15:48:27 [33msession: [0m081XgOLfoWvSdyvyjhRftMM8Q
+[36m2022/07/18 15:48:27 [33mconfidence: [0mundefined
+[36m2022/07/18 15:48:27 [33mpageInfo: [0mAddress Identification
+[36m2022/07/18 15:48:27 [33mtag: [0mCustomerDropped
+[36m2022/07/18 15:48:27 [33mparameters: [0m{"avaya-session-telephone":{"ccxml":{"namelist":["early_media"],"values":{"early_media":"false"}},"uui":"00FA080001224062D50272;encoding=hex","coverage_type":"","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065212-2&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful3","dnis":"9001","aai":"00FA080001224062D50272;encoding=hex","channel":"282","callid":"ep1-sip-1-2022199065212","early_media":"false","called_extension":"","teletype":"SIP","rdnis":"23901@sip.*.*.com","ani":"09093817266","iidigits":"","call_tag":"ep1-2022199065212-2","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22"},"query-name":"タカヤ株式会社","sip-hdrs":{"contact":[{"uri":"sip:09093817266@*.*.7.14:5071;gsid=c278e3ea-0665-41ed-94dd-000c29d10dd2;asm=1","displayname":""}],"requestversion":"SIP/2.0","via":[{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TCP","sentport":"[0]"},{"protocol":"SIP/2.0/TCP","sentport":"[15060]","sentaddr":"127.0.0.2"},{"protocol":"SIP/2.0/TCP","sentport":"[15060]","sentaddr":"127.0.0.2"},{"sentaddr":"*.*.7.13","sentport":"[5071]","protocol":"SIP/2.0/TLS"},{"sentport":"[5071]","sentaddr":"*.*.7.14","protocol":"SIP/2.0/TLS"},{"sentaddr":"*.*.7.29","sentport":"[0]","protocol":"SIP/2.0/TLS"}],"request":{"user":"9001","host":"sip.*.*.com"},"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}],"unknownhdr":[{"name":"Max-Breadth","value":" 60"},{"name":"User-to-User","value":" 00FA080001224062D50272;encoding=hex"},{"value":" 1_1","name":"P-AV-Message-Id"},{"value":" c278e3ea-0665-41ed-94dd-000c29d10dd2","name":"Av-Global-Session-ID"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"callid":"c279edd066541ed94e20c29d1dd2","useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"require":"","supported":"100rel histinfo join replaces sdp-anat timer ","media":[{"type":"audio","farport":"[2054]","protocol":"RTP/AVP","faraddress":"*.*.7.29","faraddrtype":"IP4"}],"to":{"uri":"sip:9001@sip.*.*.com","user":"9001","displayname":"","host":"sip.*.*.com"},"historyinfo":[{"displayname":"","index":"1","ext":"","host":"sip.*.*.com","optheader":"","user":"23901"},{"displayname":"\"diagflowVDN\"","user":"23901","optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","index":"1.1","ext":"","host":"sip.*.*.com"},{"index":"1.2","ext":"","user":"23901","optheader":"","host":"sip.*.*.com","displayname":"\"diagflowVDN\""}],"requestmethod":"INVITE","from":{"uri":"sip:09093817266@sip.*.*.com","tag":"c279ee7066541ed94e30c29d1dd2","host":"sip.*.*.com","displayname":"","user":"09093817266"},"requesturi":"sip:9001@sip.*.*.com"}}
+[36m2022/07/18 15:48:27 [33mmessages: [0mundefined
+[36m2022/07/18 15:48:27 [33mlanguageCode: [0men-us
+[36m2022/07/18 15:48:27 [33mcmsp.interactions [0msessionId 081XgOLfoWvSdyvyjhRftMM8Q found
+[36m2022/07/18 15:48:27 [33mresp.send [0m[{"text":{"text":["<speak><audio src=\"https://aura.uxportal.jp/audios/boing_x.wav\"></audio></speak>"]}}]
+{
+  sessionId: '081XgOLfoWvSdyvyjhRftMM8Q',
+  phoneNumber: '09093817266',
+  name: {
+    audio: 'ccai-dialogflow2-uthixs_081XgOLfoWvSdyvyjhRftMM8Q_audio-encoding-linear-16_8000_1_1658126980270164',
+    query: 'タカヤ株式会社',
+    transcription: 'タカヤ株式会社',
+    katakana: 'タカヤ カブシキガイシャ '
+  },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:48:02',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:02',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:21',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:27',
+      tag: 'CustomerDropped',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+
+[36m2022/07/18 15:48:32 [33mintentInfo: [0m{"lastMatchedIntent":"projects/ccai-av-97a11ffc8857e5/locations/asia-northeast1/agents/65e8f941-5314-4125-8b10-248aa0461b51/intents/00000000-0000-0000-0000-000000000000","displayName":"Default Welcome Intent","confidence":1}
+[36m2022/07/18 15:48:32 [33mproject: [0mccai-av-97a11ffc8857e5
+[36m2022/07/18 15:48:32 [33msession: [0m0657KJuUWRjQEKoMrMWQXv-gA
+[36m2022/07/18 15:48:32 [33mconfidence: [0mundefined
+[36m2022/07/18 15:48:32 [33mpageInfo: [0mStart Page
+[36m2022/07/18 15:48:32 [33mtag: [0mStart
+[36m2022/07/18 15:48:32 [33mparameters: [0m{"avaya-session-telephone":{"aai":"00FA080001224162D50291;encoding=hex","coverage_type":"","channel":"283","teletype":"SIP","called_extension":"","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065243-3&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful2","callid":"ep1-sip-1-2022199065243","rdnis":"23901@sip.*.*.com","ccxml":{"values":{"early_media":"false"},"namelist":["early_media"]},"early_media":"false","uui":"00FA080001224162D50291;encoding=hex","call_tag":"ep1-2022199065243-3","iidigits":"","ani":"09093817266","dnis":"9002","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22"},"sip-hdrs":{"via":[{"protocol":"SIP/2.0/TCP","sentport":"[0]","sentaddr":"*.*.7.13"},{"sentaddr":"127.0.0.2","sentport":"[15060]","protocol":"SIP/2.0/TCP"},{"sentport":"[15060]","protocol":"SIP/2.0/TCP","sentaddr":"127.0.0.2"},{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TLS","sentport":"[5071]"},{"sentport":"[5071]","sentaddr":"*.*.7.14","protocol":"SIP/2.0/TLS"},{"sentaddr":"*.*.7.29","sentport":"[0]","protocol":"SIP/2.0/TLS"}],"requestversion":"SIP/2.0","historyinfo":[{"host":"sip.*.*.com","index":"1","user":"23901","ext":"","displayname":"","optheader":""},{"optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","displayname":"\"diagflowVDN\"","host":"sip.*.*.com","user":"23901","index":"1.1","ext":""},{"optheader":"","displayname":"\"diagflowVDN\"","ext":"","user":"23901","host":"sip.*.*.com","index":"1.2"}],"callid":"d4bec11466541ed9510c29d1dd2","supported":"100rel histinfo join replaces sdp-anat timer ","requesturi":"sip:9002@sip.*.*.com","require":"","request":{"host":"sip.*.*.com","user":"9002"},"requestmethod":"INVITE","unknownhdr":[{"value":" 60","name":"Max-Breadth"},{"name":"User-to-User","value":" 00FA080001224162D50291;encoding=hex"},{"name":"P-AV-Message-Id","value":" 1_1"},{"name":"Av-Global-Session-ID","value":" d4bdbc92-0665-41ed-94fc-000c29d10dd2"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"from":{"host":"sip.*.*.com","tag":"d4bec1b466541ed9520c29d1dd2","user":"09093817266","displayname":"","uri":"sip:09093817266@sip.*.*.com"},"contact":[{"displayname":"","uri":"sip:09093817266@*.*.7.14:5071;gsid=d4bdbc92-0665-41ed-94fc-000c29d10dd2;asm=1"}],"to":{"uri":"sip:9002@sip.*.*.com","user":"9002","host":"sip.*.*.com","displayname":""},"media":[{"protocol":"RTP/AVP","faraddrtype":"IP4","farport":"[2050]","type":"audio","faraddress":"*.*.7.29"}],"useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}]}}
+[36m2022/07/18 15:48:32 [33mmessages: [0m[{"text":{"text":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"],"redactedText":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"]},"responseType":"HANDLER_PROMPT","source":"VIRTUAL_AGENT"}]
+[36m2022/07/18 15:48:32 [33mlanguageCode: [0mja
+[36m2022/07/18 15:48:32 [33mcmsp.interactions [0msessionId 0657KJuUWRjQEKoMrMWQXv-gA added
+[36m2022/07/18 15:48:32 [33mresp.send [0m[{"text":{"text":["<speak><audio src=\"https://aura.uxportal.jp/audios/chime.wav\"></audio></speak>"]}}]
+{
+  sessionId: '0657KJuUWRjQEKoMrMWQXv-gA',
+  phoneNumber: '09093817266',
+  name: { audio: null, query: null, transcription: null, katakana: null },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:48:32',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+
+[36m2022/07/18 15:48:33 [33mintentInfo: [0m{"lastMatchedIntent":"projects/ccai-av-97a11ffc8857e5/locations/asia-northeast1/agents/65e8f941-5314-4125-8b10-248aa0461b51/intents/00000000-0000-0000-0000-000000000000","displayName":"Default Welcome Intent","confidence":1}
+[36m2022/07/18 15:48:33 [33mproject: [0mccai-av-97a11ffc8857e5
+[36m2022/07/18 15:48:33 [33msession: [0m0657KJuUWRjQEKoMrMWQXv-gA
+[36m2022/07/18 15:48:33 [33mconfidence: [0mundefined
+[36m2022/07/18 15:48:33 [33mpageInfo: [0mName Identification
+[36m2022/07/18 15:48:33 [33mtag: [0mQueryName
+[36m2022/07/18 15:48:33 [33mparameters: [0m{"avaya-session-telephone":{"aai":"00FA080001224162D50291;encoding=hex","coverage_type":"","channel":"283","teletype":"SIP","called_extension":"","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065243-3&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful2","callid":"ep1-sip-1-2022199065243","rdnis":"23901@sip.*.*.com","ccxml":{"values":{"early_media":"false"},"namelist":["early_media"]},"early_media":"false","uui":"00FA080001224162D50291;encoding=hex","call_tag":"ep1-2022199065243-3","iidigits":"","ani":"09093817266","dnis":"9002","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22"},"sip-hdrs":{"via":[{"protocol":"SIP/2.0/TCP","sentport":"[0]","sentaddr":"*.*.7.13"},{"sentaddr":"127.0.0.2","sentport":"[15060]","protocol":"SIP/2.0/TCP"},{"sentport":"[15060]","protocol":"SIP/2.0/TCP","sentaddr":"127.0.0.2"},{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TLS","sentport":"[5071]"},{"sentport":"[5071]","sentaddr":"*.*.7.14","protocol":"SIP/2.0/TLS"},{"sentaddr":"*.*.7.29","sentport":"[0]","protocol":"SIP/2.0/TLS"}],"requestversion":"SIP/2.0","historyinfo":[{"host":"sip.*.*.com","index":"1","user":"23901","ext":"","displayname":"","optheader":""},{"optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","displayname":"\"diagflowVDN\"","host":"sip.*.*.com","user":"23901","index":"1.1","ext":""},{"optheader":"","displayname":"\"diagflowVDN\"","ext":"","user":"23901","host":"sip.*.*.com","index":"1.2"}],"callid":"d4bec11466541ed9510c29d1dd2","supported":"100rel histinfo join replaces sdp-anat timer ","requesturi":"sip:9002@sip.*.*.com","require":"","request":{"host":"sip.*.*.com","user":"9002"},"requestmethod":"INVITE","unknownhdr":[{"value":" 60","name":"Max-Breadth"},{"name":"User-to-User","value":" 00FA080001224162D50291;encoding=hex"},{"name":"P-AV-Message-Id","value":" 1_1"},{"name":"Av-Global-Session-ID","value":" d4bdbc92-0665-41ed-94fc-000c29d10dd2"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"from":{"host":"sip.*.*.com","tag":"d4bec1b466541ed9520c29d1dd2","user":"09093817266","displayname":"","uri":"sip:09093817266@sip.*.*.com"},"contact":[{"displayname":"","uri":"sip:09093817266@*.*.7.14:5071;gsid=d4bdbc92-0665-41ed-94fc-000c29d10dd2;asm=1"}],"to":{"uri":"sip:9002@sip.*.*.com","user":"9002","host":"sip.*.*.com","displayname":""},"media":[{"protocol":"RTP/AVP","faraddrtype":"IP4","farport":"[2050]","type":"audio","faraddress":"*.*.7.29"}],"useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}]}}
+[36m2022/07/18 15:48:33 [33mmessages: [0m[{"text":{"text":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"],"redactedText":["名前、住所から電話番号を音声認識で検索し、自動転送を行います。"]},"responseType":"HANDLER_PROMPT","source":"VIRTUAL_AGENT"},{"text":{"text":["<speak><audio src=\"https://aura.uxportal.jp/audios/chime.wav\"></audio></speak>"],"redactedText":["<speak><audio src=\"https://aura.uxportal.jp/audios/chime.wav\"></audio></speak>"]},"responseType":"HANDLER_PROMPT","source":"WEBHOOK"},{"text":{"text":["転送先の名前、または企業名はなんですか？"],"redactedText":["転送先の名前、または企業名はなんですか？"]},"responseType":"ENTRY_PROMPT","source":"VIRTUAL_AGENT"}]
+[36m2022/07/18 15:48:33 [33mlanguageCode: [0mja
+[36m2022/07/18 15:48:33 [33mcmsp.interactions [0msessionId 0657KJuUWRjQEKoMrMWQXv-gA found
+[36m2022/07/18 15:48:33 [33mresp.send [0m[]
+{
+  sessionId: '0657KJuUWRjQEKoMrMWQXv-gA',
+  phoneNumber: '09093817266',
+  name: { audio: null, query: null, transcription: null, katakana: null },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:48:32',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:33',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+
+[36m2022/07/18 15:48:49 [33mintentInfo: [0mundefined
+[36m2022/07/18 15:48:49 [33mproject: [0mccai-av-97a11ffc8857e5
+[36m2022/07/18 15:48:49 [33msession: [0m0657KJuUWRjQEKoMrMWQXv-gA
+[36m2022/07/18 15:48:49 [33mconfidence: [0mundefined
+[36m2022/07/18 15:48:49 [33mpageInfo: [0mName Identification
+[36m2022/07/18 15:48:49 [33mtag: [0mQueryName
+[36m2022/07/18 15:48:49 [33mparameters: [0m{"avaya-session-telephone":{"aai":"00FA080001224162D50291;encoding=hex","coverage_type":"","channel":"283","teletype":"SIP","called_extension":"","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065243-3&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful2","callid":"ep1-sip-1-2022199065243","rdnis":"23901@sip.*.*.com","ccxml":{"values":{"early_media":"false"},"namelist":["early_media"]},"early_media":"false","uui":"00FA080001224162D50291;encoding=hex","call_tag":"ep1-2022199065243-3","iidigits":"","ani":"09093817266","dnis":"9002","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22"},"query-name":"東レ株式会社","sip-hdrs":{"via":[{"protocol":"SIP/2.0/TCP","sentport":"[0]","sentaddr":"*.*.7.13"},{"sentaddr":"127.0.0.2","sentport":"[15060]","protocol":"SIP/2.0/TCP"},{"sentport":"[15060]","protocol":"SIP/2.0/TCP","sentaddr":"127.0.0.2"},{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TLS","sentport":"[5071]"},{"sentport":"[5071]","sentaddr":"*.*.7.14","protocol":"SIP/2.0/TLS"},{"sentaddr":"*.*.7.29","sentport":"[0]","protocol":"SIP/2.0/TLS"}],"requestversion":"SIP/2.0","historyinfo":[{"host":"sip.*.*.com","index":"1","user":"23901","ext":"","displayname":"","optheader":""},{"optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","displayname":"\"diagflowVDN\"","host":"sip.*.*.com","user":"23901","index":"1.1","ext":""},{"optheader":"","displayname":"\"diagflowVDN\"","ext":"","user":"23901","host":"sip.*.*.com","index":"1.2"}],"callid":"d4bec11466541ed9510c29d1dd2","supported":"100rel histinfo join replaces sdp-anat timer ","requesturi":"sip:9002@sip.*.*.com","require":"","request":{"host":"sip.*.*.com","user":"9002"},"requestmethod":"INVITE","unknownhdr":[{"value":" 60","name":"Max-Breadth"},{"name":"User-to-User","value":" 00FA080001224162D50291;encoding=hex"},{"name":"P-AV-Message-Id","value":" 1_1"},{"name":"Av-Global-Session-ID","value":" d4bdbc92-0665-41ed-94fc-000c29d10dd2"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"from":{"host":"sip.*.*.com","tag":"d4bec1b466541ed9520c29d1dd2","user":"09093817266","displayname":"","uri":"sip:09093817266@sip.*.*.com"},"contact":[{"displayname":"","uri":"sip:09093817266@*.*.7.14:5071;gsid=d4bdbc92-0665-41ed-94fc-000c29d10dd2;asm=1"}],"to":{"uri":"sip:9002@sip.*.*.com","user":"9002","host":"sip.*.*.com","displayname":""},"media":[{"protocol":"RTP/AVP","faraddrtype":"IP4","farport":"[2050]","type":"audio","faraddress":"*.*.7.29"}],"useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}]}}
+[36m2022/07/18 15:48:49 [33mmessages: [0mundefined
+[36m2022/07/18 15:48:49 [33mlanguageCode: [0mja
+[36m2022/07/18 15:48:49 [33mcmsp.interactions [0msessionId 0657KJuUWRjQEKoMrMWQXv-gA found
+[36m2022/07/18 15:48:49 [33mquery-name: [0m東レ株式会社
+[36m2022/07/18 15:48:50 [33maudiofile [0mnot found
+[36m2022/07/18 15:48:50 [33mresp.send [0m[]
+{
+  sessionId: '0657KJuUWRjQEKoMrMWQXv-gA',
+  phoneNumber: '09093817266',
+  name: { audio: null, query: '東レ株式会社', transcription: null, katakana: null },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:48:32',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:33',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:50',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+
+[36m2022/07/18 15:48:56 [33mintentInfo: [0mundefined
+[36m2022/07/18 15:48:56 [33mproject: [0mccai-av-97a11ffc8857e5
+[36m2022/07/18 15:48:56 [33msession: [0m0657KJuUWRjQEKoMrMWQXv-gA
+[36m2022/07/18 15:48:56 [33mconfidence: [0mundefined
+[36m2022/07/18 15:48:56 [33mpageInfo: [0mAddress Identification
+[36m2022/07/18 15:48:56 [33mtag: [0mCustomerDropped
+[36m2022/07/18 15:48:56 [33mparameters: [0m{"avaya-session-telephone":{"aai":"00FA080001224162D50291;encoding=hex","coverage_type":"","channel":"283","teletype":"SIP","called_extension":"","startPage":"http://localhost/mpp/misc/dialogflowapp/def_dialogflow.vxml?session___sessionid=ep1-2022199065243-3&__VPapploggingurl=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPReport4&__VPapplog=%2faxis2%2fservices%2fVPAppLogService&__VPvpms=172%2e17%2e7%2e21&__VPappvars=%2faxis2%2fservices%2fVPAppVarsService&__VPVarAppDate=0&__VPVarAppURL=https%3a%2f%2f172%2e17%2e7%2e21%2faxis%2fservices%2fVPAppRuntimeVars&__VPVarGlobalDate=1656391032912&__VPbreadcrumb=disabled&__VPmaxbackuplogfiles=10&__VPlogname=%25default%25jVAl2hFtUWuWDkkk&__VPlogpassword=cMgc1JY54tTXmQXzVcwy6lMXBczSWEHme51xEhDjWvnXsscUKsA2H1gZEGoYXdU0&__VPloglevel=Info&__VPappname=0%3adlful2","callid":"ep1-sip-1-2022199065243","rdnis":"23901@sip.*.*.com","ccxml":{"values":{"early_media":"false"},"namelist":["early_media"]},"early_media":"false","uui":"00FA080001224162D50291;encoding=hex","call_tag":"ep1-2022199065243-3","iidigits":"","ani":"09093817266","dnis":"9002","coverage_reason":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22"},"query-name":"東レ株式会社","sip-hdrs":{"via":[{"protocol":"SIP/2.0/TCP","sentport":"[0]","sentaddr":"*.*.7.13"},{"sentaddr":"127.0.0.2","sentport":"[15060]","protocol":"SIP/2.0/TCP"},{"sentport":"[15060]","protocol":"SIP/2.0/TCP","sentaddr":"127.0.0.2"},{"sentaddr":"*.*.7.13","protocol":"SIP/2.0/TLS","sentport":"[5071]"},{"sentport":"[5071]","sentaddr":"*.*.7.14","protocol":"SIP/2.0/TLS"},{"sentaddr":"*.*.7.29","sentport":"[0]","protocol":"SIP/2.0/TLS"}],"requestversion":"SIP/2.0","historyinfo":[{"host":"sip.*.*.com","index":"1","user":"23901","ext":"","displayname":"","optheader":""},{"optheader":"Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20Temporarily%22&Reason=Redirection%3Bcause%3DNORMAL%3Bavaya-cm-reason%3D%22vector-directory-number%22","displayname":"\"diagflowVDN\"","host":"sip.*.*.com","user":"23901","index":"1.1","ext":""},{"optheader":"","displayname":"\"diagflowVDN\"","ext":"","user":"23901","host":"sip.*.*.com","index":"1.2"}],"callid":"d4bec11466541ed9510c29d1dd2","supported":"100rel histinfo join replaces sdp-anat timer ","requesturi":"sip:9002@sip.*.*.com","require":"","request":{"host":"sip.*.*.com","user":"9002"},"requestmethod":"INVITE","unknownhdr":[{"value":" 60","name":"Max-Breadth"},{"name":"User-to-User","value":" 00FA080001224162D50291;encoding=hex"},{"name":"P-AV-Message-Id","value":" 1_1"},{"name":"Av-Global-Session-ID","value":" d4bdbc92-0665-41ed-94fc-000c29d10dd2"},{"value":" SM;origlocname=\"akasaka\";origsiglocname=\"akasaka\";origmedialocname=\"akasaka\";termlocname=\"akasaka\";termsiglocname=\"akasaka\";smaccounting=\"true\"","name":"P-Location"}],"from":{"host":"sip.*.*.com","tag":"d4bec1b466541ed9520c29d1dd2","user":"09093817266","displayname":"","uri":"sip:09093817266@sip.*.*.com"},"contact":[{"displayname":"","uri":"sip:09093817266@*.*.7.14:5071;gsid=d4bdbc92-0665-41ed-94fc-000c29d10dd2;asm=1"}],"to":{"uri":"sip:9002@sip.*.*.com","user":"9002","host":"sip.*.*.com","displayname":""},"media":[{"protocol":"RTP/AVP","faraddrtype":"IP4","farport":"[2050]","type":"audio","faraddress":"*.*.7.29"}],"useragent":["Avaya CM/R018x.01.0.890.0 AVAYA-SM-8.1.3.2.813207"],"passertedid":[{"displayname":"","uri":"sip:09093817266@sip.*.*.com"}]}}
+[36m2022/07/18 15:48:56 [33mmessages: [0mundefined
+[36m2022/07/18 15:48:56 [33mlanguageCode: [0men-us
+[36m2022/07/18 15:48:56 [33mcmsp.interactions [0msessionId 0657KJuUWRjQEKoMrMWQXv-gA found
+[36m2022/07/18 15:48:56 [33mresp.send [0m[{"text":{"text":["<speak><audio src=\"https://aura.uxportal.jp/audios/boing_x.wav\"></audio></speak>"]}}]
+{
+  sessionId: '0657KJuUWRjQEKoMrMWQXv-gA',
+  phoneNumber: '09093817266',
+  name: { audio: null, query: '東レ株式会社', transcription: null, katakana: null },
+  address: { audio: null, query: null, transcription: null, katakana: null },
+  fulfillment: [
+    {
+      time: '2022/07/18 15:48:32',
+      tag: 'Start',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:33',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:50',
+      tag: 'QueryName',
+      request: [Object],
+      response: [Object]
+    },
+    {
+      time: '2022/07/18 15:48:56',
+      tag: 'CustomerDropped',
+      request: [Object],
+      response: [Object]
+    }
+  ]
+}
+node:events:498
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:258:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:660:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
