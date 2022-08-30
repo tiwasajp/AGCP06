@@ -37,7 +37,7 @@ const DEBUG = true;
 const PORT = 80;
 
 const SERVER = process.env.SERVER || 'xxxx.xxxx.xxx';
-const WORKDIR = process.env.WORKDIR || '/home/AGCP05';
+const WORKDIR = process.env.WORKDIR || '/home/AGCP06';
 
 const app = express();
 app.use(express.static("public"));

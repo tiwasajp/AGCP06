@@ -38,7 +38,7 @@
 
 	if (!cmsp.client.userId) {
 		alert("No userId identified.")
-	}
+	}	
 
 	const webRTC = new WebRTC();
 	const socket_emit_webrtc = (data) => { socket.emit("webrtc", { header: header(cmsp.client, "webrtc", ""), body: data }); };
@@ -165,7 +165,7 @@
 		var dfd = $.Deferred();
 		var data = { imageData: document.getElementById(id).toDataURL() };
 		$.ajax({
-			url: `https://aura.uxportal.jp/postImageDataToFile?file=${filename}`,
+			url: `postImageDataToFile?file=${filename}`,
 			method: 'POST',
 			cache: 'no-store',
 			dataType: 'json',
